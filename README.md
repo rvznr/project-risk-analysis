@@ -1,7 +1,7 @@
-# 📊 Project Risk Analysis System  
+# Project Risk Analysis System  
 🚀 Predicting project risks using Monte Carlo Simulation & Time Series Forecasting  
 
-## 🔹 Overview  
+## Overview  
 This project provides a **data-driven methodology** for evaluating and predicting project completion risks. It incorporates:  
 
 - **Monte Carlo Simulation** for probabilistic risk analysis and delay estimation.  
@@ -10,7 +10,7 @@ This project provides a **data-driven methodology** for evaluating and predictin
 
 ---
 
-## 🔹 Features  
+## Features  
 - **Risk Simulation** – Uses Monte Carlo methods to quantify potential project delays.  
 - **Predictive Modeling** – Applies time series forecasting to estimate project completion times.  
 - **Data Processing & Analysis** – Cleans, structures, and analyzes project datasets.  
@@ -18,7 +18,7 @@ This project provides a **data-driven methodology** for evaluating and predictin
 
 ---
 
-## 🔹 Project Structure  
+## Project Structure  
 Project-Risk-Analysis/
 │── data/
 │── src/
@@ -29,7 +29,7 @@ Project-Risk-Analysis/
 │── README.md
 │── requirements.txt
 ---
-## 🔹 Quick Start  
+## For Quick Start  
 Run the following commands to clone and run the project:  
 ```sh
 git clone https://github.com/rvznr/project-risk-analysis.git
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-## 🔹 Project Data  
+## Project Data  
 The project works with sample data stored in **`data/sample_projects.csv`**:
 
 | Project Name   | Start Date  | Estimated Duration (days) | Actual Duration (days) | Budget (USD) | Used Budget (USD) |
@@ -49,17 +49,16 @@ The project works with sample data stored in **`data/sample_projects.csv`**:
 | Project Delta | 2024-04-05 | 45                        | 50                   | 300,000     | 350,000         |
 | Project Epsilon | 2024-05-10 | 150                      | 160                  | 1,200,000   | 1,250,000      |
 
-## 🔹 Key Algorithms
-
-🎲 Monte Carlo Simulation
+## Key Algorithms
+ Monte Carlo Simulation
 	•	Simulates project delays using random variations
 	•	Helps estimate worst-case and best-case scenarios
 
-📈 Time Series Forecasting
+Time Series Forecasting
 	•	Uses ARIMA model to predict future project durations
 	•	Helps estimate expected completion times
 
-## 🔹 Future Improvements  
+## Future Improvements  
 - **Integrate with Trello API** for real-time project tracking.  
 - **Build a Streamlit dashboard** for interactive visualization.  
 - **Add budget deviation analysis** to monitor financial performance.  
