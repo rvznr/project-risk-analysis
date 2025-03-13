@@ -1,5 +1,4 @@
 # Project Risk Analysis System  
-🚀 Predicting project risks using Monte Carlo Simulation & Time Series Forecasting  
 
 ## Overview  
 This project provides a **data-driven methodology** for evaluating and predicting project completion risks. It incorporates:  
